@@ -66,4 +66,9 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+    //TODO 0.сделать User entity
+    //TODO 1.сделать UserDetailServiceImpl
+    //TODO 2.сделать SecurityUser на основе User
+    //TODO 3.дополнить SecurityConfig
+
 }
